@@ -6,10 +6,10 @@ Encadrant : François HU (Milliman R&D)
 Année universitaire : 2025–2026
 
 ## 👥 Auteurs
-CERCLERON Léa
-YASSIR Hafsa
-BRANGER Adélaïde
-FAVROT Marion
+- CERCLERON Léa
+- YASSIR Hafsa
+- BRANGER Adélaïde
+- FAVROT Marion
 
 ## 📄 Article de référence
 **Titre** : *SMOTE: Synthetic Minority Over-sampling Technique*  
