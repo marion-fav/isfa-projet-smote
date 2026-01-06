@@ -39,26 +39,17 @@ Les données proviennent de jeux Kaggle (https://www.kaggle.com/datasets/cdminix
 ## 🗂️ Structure du dépôt
 data/ → jeux de données bruts et prétraités
 notebooks/ → analyses exploratoires et expérimentations
-src/ → implémentations modulaires (prétraitement, SMOTE, modèles)
-results/ → résultats finaux, métriques et visualisations
-report/ → rapport PDF soumis
+maybe results/ → résultats finaux, métriques et visualisations
+
 
 ## 📁 Description des dossiers
-### data/
+### Data/
 - `raw/` : données brutes, non modifiées  
-- `processed/` : données après nettoyage et rééchantillonnage  
-- `README.md` : description de l’origine et des variables des datasets
+- `treated/` : données après nettoyage et rééchantillonnage  
+- `READMEDATA.md` : description de l’origine et des variables des datasets
 
-### notebooks/
-Le notebook utilisé mise dans ce dossier
-
-### src/
-Scripts Python modulaires :
-ex : 
-- `preprocessing.py` : nettoyage et préparation des données  
-- `resampling.py` : implémentation de SMOTE et méthodes comparatives  
-- `models.py` : modèles de classification  
-- `evaluation.py` : métriques et fonctions d’évaluation
+### Script/
+Le script utilisé mise dans ce dossier
 
 ## 🔬 Méthodologie
 La démarche suivie est la suivante :
