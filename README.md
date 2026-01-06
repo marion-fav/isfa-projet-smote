@@ -5,6 +5,12 @@ Projet réalisé dans le cadre du cours **Data Science** – M2 Actuariat (ISFA)
 Encadrant : François HU (Milliman R&D)
 Année universitaire : 2025–2026
 
+## 👥 Auteurs
+CERCLERON Léa
+YASSIR Hafsa
+BRANGER Adélaïde
+FAVROT Marion
+
 ## 📄 Article de référence
 **Titre** : *SMOTE: Synthetic Minority Over-sampling Technique*  
 **Auteurs** : N. V. Chawla, K. W. Bowyer, L. O. Hall, W. P. Kegelmeyer (2002)
@@ -20,10 +26,17 @@ Le projet vise à comparer :
 - d’autres stratégies classiques (sur-échantillonnage et sous-échantillonnage).
 
 ## 🧪 Cas d’usage actuariel
-- Type de problème : classification binaire avec classe rare  
-- Domaine assurantiel : blabla sur la base ....
-- Variable cible :   
-- Proportion initiale de la classe minoritaire : 
+Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données
+météorologiques et environnementales aux États-Unis.
+
+- Domaine : assurance agricole / risque climatique
+- Variable cible : indicateur binaire de sécheresse
+- Classe minoritaire : épisodes de sécheresse
+- Enjeu actuariel : anticipation de la sinistralité liée aux événements climatiques extrêmes
+
+Les données proviennent de jeux Kaggle issus notamment de sources officielles
+(NASA POWER Project, U.S. Drought Monitor).
+
 
 ## 🗂️ Structure du dépôt
 data/ → jeux de données bruts et prétraités
@@ -39,26 +52,25 @@ report/ → rapport PDF soumis
 - `README.md` : description de l’origine et des variables des datasets
 
 ### notebooks/
-Les notebooks sont numérotés pour assurer la reproductibilité :
-1. Analyse exploratoire et diagnostic du déséquilibre
-2. Prétraitement des données
-3. Application de SMOTE et méthodes alternatives
-4. Entraînement des modèles
-5. Analyse et comparaison des résultats
+Le notebook utilisé mise dans ce dossier
 
 ### src/
 Scripts Python modulaires :
+ex : 
 - `preprocessing.py` : nettoyage et préparation des données  
 - `resampling.py` : implémentation de SMOTE et méthodes comparatives  
 - `models.py` : modèles de classification  
 - `evaluation.py` : métriques et fonctions d’évaluation
 
 ## 🔬 Méthodologie
-- Analyse exploratoire du déséquilibre de classes
-- Séparation stricte train / test
-- Application de SMOTE **uniquement sur l’échantillon d’entraînement**
-- Entraînement de plusieurs modèles de référence
-- Comparaison des performances avant et après rééchantillonnage
+La démarche suivie est la suivante :
+1. Analyse exploratoire et diagnostic du déséquilibre de classes
+2. Prétraitement des données (nettoyage, standardisation)
+3. Transformation de la variable cible en classification binaire
+4. Séparation stricte train / test
+5. Application de **SMOTE uniquement sur l’échantillon d’entraînement**
+6. Entraînement de plusieurs modèles de classification
+7. Évaluation des performances sur le jeu de test non modifié
 
 ## 📊 Métriques d’évaluation
 Les performances sont évaluées à l’aide de métriques adaptées aux classes rares :
@@ -83,9 +95,5 @@ SMOTE est appliqué uniquement sur les données d’entraînement afin d’évit
 Les données brutes ne sont jamais modifiées.
 Les résultats sont interprétés de manière critique, notamment en termes de variance et de calibration.
 
-👥 Auteurs
-CERCLERON Léa
-YASSIR Hafsa
-BRANGER Adélaïde
-FAVROT Marion
+
 
