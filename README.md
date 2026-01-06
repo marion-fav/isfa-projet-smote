@@ -90,7 +90,7 @@ pip install -r requirements.txt
 jupyter notebook
 Exécuter les notebooks dans l’ordre numérique.
 
-⚠️ Bonnes pratiques et points d’attention
+## ⚠️ Bonnes pratiques et points d’attention
 SMOTE est appliqué uniquement sur les données d’entraînement afin d’éviter toute fuite d’information.
 Les données brutes ne sont jamais modifiées.
 Les résultats sont interprétés de manière critique, notamment en termes de variance et de calibration.
