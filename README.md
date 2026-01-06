@@ -26,16 +26,14 @@ Le projet vise à comparer :
 - d’autres stratégies classiques (sur-échantillonnage et sous-échantillonnage).
 
 ## 🧪 Cas d’usage actuariel
-Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données
-météorologiques et environnementales aux États-Unis.
+Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données météorologiques et environnementales aux États-Unis. Pour cela, deux bases de données "soil_data.csv" et "train_timeseries.csv" sont concaténées.
 
-- Domaine : assurance agricole / risque climatique
+- Domaine : risque climatique
 - Variable cible : indicateur binaire de sécheresse
 - Classe minoritaire : épisodes de sécheresse
 - Enjeu actuariel : anticipation de la sinistralité liée aux événements climatiques extrêmes
 
-Les données proviennent de jeux Kaggle issus notamment de sources officielles
-(NASA POWER Project, U.S. Drought Monitor).
+Les données proviennent de jeux Kaggle (https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data?resource=download) issus notamment de sources officielles (NASA POWER Project, U.S. Drought Monitor).
 
 
 ## 🗂️ Structure du dépôt
