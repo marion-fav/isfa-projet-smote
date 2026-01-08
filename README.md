@@ -38,18 +38,16 @@ Les données proviennent de jeux Kaggle (https://www.kaggle.com/datasets/cdminix
 
 ## 🗂️ Structure du dépôt
 data/ → jeux de données bruts et prétraités
-notebooks/ → analyses exploratoires et expérimentations
-maybe results/ → résultats finaux, métriques et visualisations
-
+script/ → script utilisé 
 
 ## 📁 Description des dossiers
 ### Data/
 - `raw/` : données brutes, non modifiées  
 - `treated/` : données après nettoyage et rééchantillonnage  
-- `READMEDATA.md` : description de l’origine et des variables des datasets
+- `READMEDATA.md` : description de l’origine des datasets
 
 ### Script/
-Le script utilisé mise dans ce dossier
+Le script utilisé mise dans ce dossier. Il contient les résultats et différentes viualisations. Egalement, la partie annexe est à retrouver dans ce script. 
 
 ## 🔬 Méthodologie
 La démarche suivie est la suivante :
@@ -68,16 +66,6 @@ Les performances sont évaluées à l’aide de métriques adaptées aux classes
 - F1-score
 - AUC ROC
 - AUC Precision-Recall
-
-## ▶️ Instructions d’exécution
-1. Créer un environnement virtuel :
-python -m venv venv
-source venv/bin/activate
-2. Installer les dépendances :
-pip install -r requirements.txt
-3. Lancer Jupyter Notebook :
-jupyter notebook
-Exécuter les notebooks dans l’ordre numérique.
 
 ## ⚠️ Bonnes pratiques et points d’attention
 SMOTE est appliqué uniquement sur les données d’entraînement afin d’éviter toute fuite d’information.
