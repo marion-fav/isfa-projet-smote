@@ -25,7 +25,7 @@ Le projet vise à comparer :
 - une approche avec SMOTE.
 - 
 ## 🧪 Cas d’usage actuariel
-Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données météorologiques et environnementales aux États-Unis. Pour cela, deux bases de données "soil_data.csv" et "train_timeseries.csv" sont concaténées.
+Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données météorologiques et environnementales aux États-Unis. Pour cela, deux bases de données "soil_data.csv" et "test_timeseries.csv" sont concaténées.
 
 - Domaine : risque climatique
 - Variable cible : indicateur binaire de sécheresse
