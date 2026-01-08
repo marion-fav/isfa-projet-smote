@@ -22,9 +22,8 @@ appliqués à un cas d’usage actuariel présentant un **déséquilibre marqué
 
 Le projet vise à comparer :
 - une approche sans rééchantillonnage,
-- une approche avec SMOTE,
-- d’autres stratégies classiques (sur-échantillonnage et sous-échantillonnage).
-
+- une approche avec SMOTE.
+- 
 ## 🧪 Cas d’usage actuariel
 Le cas d’usage étudié concerne la **détection d’épisodes de sécheresse** à partir de données météorologiques et environnementales aux États-Unis. Pour cela, deux bases de données "soil_data.csv" et "train_timeseries.csv" sont concaténées.
 
