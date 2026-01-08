@@ -66,10 +66,6 @@ Les performances sont évaluées à l’aide de métriques adaptées aux classes
 - AUC ROC
 - AUC Precision-Recall
 
-## ⚠️ Bonnes pratiques et points d’attention
-SMOTE est appliqué uniquement sur les données d’entraînement afin d’éviter toute fuite d’information.
-Les données brutes ne sont jamais modifiées.
-Les résultats sont interprétés de manière critique, notamment en termes de variance et de calibration.
 
 
 
