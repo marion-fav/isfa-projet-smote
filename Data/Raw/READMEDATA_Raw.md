@@ -1,11 +1,11 @@
 Dossier contenant les deux jeux de données provenant du Kaggle:
 - "soil_data.csv" : premier jeu de données implémenté dans ce dossier,
-- "train_timeseries.csv" : deuxième jeu de données volumineuse pour être implémenté dans ce dossier. Pour la trouver, il faut la télécharger en suivant ce lien : "https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data?resource=download".
+- "test_timeseries.csv" : deuxième jeu de données volumineuse pour être implémenté dans ce dossier. Pour la trouver, il faut la télécharger en suivant ce lien : "https://www.kaggle.com/datasets/cdminix/us-drought-meteorological-data?resource=download".
 
 
 Pour rappel, deux bases de données issues de Kaggle:
 - soil_data.csv : Ce jeu contient des informations sur le sol et divers indices météorologiques pour différents États américains. La variable cible est le niveau de sécheresse, codé de 0 à 5, correspondant à une intensité croissante de la sécheresse. Ce jeu permet d’identifier l’état du sol et les facteurs environnementaux influençant la sécheresse.
-- train_timeseries.csv : Ce second jeu contient des séries temporelles plus détaillées sur les mêmes régions et périodes, incluant des informations météorologiques supplémentaires (température, précipitations, humidité, etc.). L’objectif est de lier ces informations pour expliquer plus précisément les causes de la sécheresse.
+- test_timeseries.csv : Ce second jeu contient des séries temporelles plus détaillées sur les mêmes régions et périodes, incluant des informations météorologiques supplémentaires (température, précipitations, humidité, etc.). L’objectif est de lier ces informations pour expliquer plus précisément les causes de la sécheresse.
 
 Celles-ci regroupent des informations provenant de plusieurs sources officielles, notamment :
  - Le NASA POWER Project, développé par le NASA Langley Research Center(LaRC) dans le cadre du programme NASA Earth Science/Applied Science.
